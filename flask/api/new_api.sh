@@ -8,8 +8,8 @@ echo "Installing flask api lib"
 pip install flask-restful
 echo "Populating project"
 mkdir -p ~/$1/src
-wget -nv https://raw.githubusercontent.com/lbrictson/configs/master/flask/api/Dockerfile -o ~/$1/Dockerfile
+wget -nv -O ~/$1/Dockerfile https://raw.githubusercontent.com/lbrictson/configs/master/flask/api/Dockerfile
 echo "flask-restful" >> ~/$1/requirments.txt
-wget -nv https://raw.githubusercontent.com/lbrictson/configs/master/flask/api/app.py -o ~/$1/src/app.py
+wget -nv -O ~/$1/src/app.py https://raw.githubusercontent.com/lbrictson/configs/master/flask/api/app.py
 echo $1 >> ~/$1/README.md
 

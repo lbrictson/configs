@@ -3,7 +3,7 @@ import requests
 import json
 
 
-version = 0.0.1
+version = "0.0.1"
 
 app = Flask(__name__)
 

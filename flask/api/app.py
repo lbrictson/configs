@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Resource, Api
 
-version = 0.0.1
+version = "0.0.1"
 
 app = Flask(__name__)
 api = Api(app)

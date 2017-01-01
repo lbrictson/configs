@@ -11,7 +11,7 @@ echo "Creating folder tree"
 mkdir -p ~/$1/src/templates
 mkdir -p ~/$1/src/static/js
 mkdir -p ~/$1/src/static/imgs
-mkdir -p ~/$1/src/css
+mkdir -p ~/$1/src/static/css
 echo "Downloading templates"
 echo "flask" >> ~/$1/requirments.txt
 echo "boto3" >> ~/$1/requirments.txt
